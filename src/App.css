@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.container {
+  background-color: #223a5f;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.score-container {
+  border: 2px #ffffff solid;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  padding: 18px;
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  border-radius: 15px;
+  width: 70%;
+  align-self: center;
+}
+.score-card {
+  background-color: #ffffff;
+  color: #223a5f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 150px;
+}
+.images-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+}
+.image {
+  height: 250px;
+  width: 250px;
+  margin: 50px;
+  cursor: pointer;
+}
+.rules-btn {
+  background-color: #ffffff;
+  color: #223a5f;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  align-self: flex-end;
+  cursor: pointer;
+}
+.rules-img {
+  height: 500px;
+  width: 500px;
+  margin: 20px;
+}
+.rules-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.close-icon {
+  cursor: pointer;
+  align-self: flex-end;
+}
+.result-container {
+  display: flex;
+  justify-content: space-between;
+}
+.image-btn {
+  background-color: transparent;
+  border: none;
+}
+.play-btn {
+  cursor: pointer;
+  border: none;
+}
